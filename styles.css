@@ -1,16 +1,91 @@
-body {
-  background-color: #eeeeee;
-  color: #222831;
+a {
+  color: #cc7832;
+  text-decoration: none;
 }
 
-a {
-  color: #00adb5;
+body {
+  background-color: #232525;
+  font-family: monospace;
+  font-size: 1rem;
+  color: #6a8759;
+  margin: 0;
+}
+
+em {
+  color: #a5c261;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3 {
+  color: #ffc66d;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.7rem;
+  margin: 2rem auto;
+}
+
+header {
+  background-color: #232525;
+  padding: 11rem 0;
+  text-align: center;
 }
 
 hr {
-  border-color: #393e46;
+  border-color: #808080;
   border-style: none;
   border-top-style: dotted;
-  border-width: 5px;
-  width: 5%;
+  border-width: 1rem;
+  display: inline-block;
+  margin: 2rem;
+  width: 8%;
+}
+
+li {
+  counter-increment: li;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+main {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+mark {
+  background-color: #232525;
+  color: #cc7832;
+}
+
+ol li::marker {
+  color: #6897bb;
+}
+
+small {
+  color: #808080;
+}
+
+strong {
+  color: #a9b7c6;
+  font-weight: normal;
+}
+
+table {
+  margin: 2rem auto;
+  text-align: justify;
+}
+
+td {
+  padding: 0.7rem;
 }
