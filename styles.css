@@ -46,10 +46,10 @@ hr {
   border-color: #808080;
   border-style: none;
   border-top-style: dotted;
-  border-width: 1rem;
+  border-width: 16px;
   display: inline-block;
   margin: 2rem;
-  width: 8%;
+  width: 96px;
 }
 
 li {
