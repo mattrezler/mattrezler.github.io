@@ -3,6 +3,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 body {
   background-color: #232525;
   font-family: monospace;
