@@ -9,11 +9,16 @@ body {
   font-size: 1rem;
   color: #6a8759;
   margin: 0;
+  text-align: center;
 }
 
 em {
   color: #a5c261;
   font-style: normal;
+}
+
+footer {
+  padding: 5rem;
 }
 
 h1,
@@ -37,9 +42,7 @@ h3 {
 }
 
 header {
-  background-color: #232525;
   padding: 11rem 0;
-  text-align: center;
 }
 
 hr {
@@ -60,7 +63,6 @@ li {
 
 main {
   padding: 2rem;
-  text-align: center;
 }
 
 mark {
