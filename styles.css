@@ -28,7 +28,7 @@ em {
 }
 
 footer, header, main {
-  padding: 2rem;
+  padding: 2rem 4rem;
 }
 
 h1,
@@ -36,6 +36,7 @@ h2,
 h3 {
   color: #ffc66d;
   margin: 2rem;
+  text-align: center;
 }
 
 h1 {
@@ -54,12 +55,16 @@ hr {
   border-width: 1rem;
   display: inline-block;
   margin: 2rem;
+  opacity: 1.0;
   width: 6rem;
 }
 
 li {
   counter-increment: li;
   line-height: 1.5;
+}
+
+main {
   text-align: left;
 }
 
@@ -83,13 +88,4 @@ small {
 strong {
   color: #a9b7c6;
   font-weight: normal;
-}
-
-table {
-  margin: 2rem auto;
-  text-align: left;
-}
-
-td {
-  padding: 0.7rem;
 }
